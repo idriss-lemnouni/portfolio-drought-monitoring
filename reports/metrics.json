@@ -1,0 +1,39 @@
+{
+  "scene_count": 20,
+  "cropland_pixels": 11265,
+  "projected_bounds_m": [
+    714620.0,
+    3641760.0,
+    716640.0,
+    3644140.0
+  ],
+  "min_valid_cropland_fraction": 0.8153573013759432,
+  "min_anomaly_fraction": 0.8131380381713271,
+  "holdout_year": 2025,
+  "heldout_reference_errors": [
+    {
+      "index": "NDVI",
+      "pixel_month_pairs": 40742,
+      "monthly_median_mae": 0.194204643368721,
+      "pooled_median_mae": 0.1901196986436844
+    },
+    {
+      "index": "NDMI",
+      "pixel_month_pairs": 40742,
+      "monthly_median_mae": 0.12614792585372925,
+      "pooled_median_mae": 0.1437695324420929
+    },
+    {
+      "index": "SAVI",
+      "pixel_month_pairs": 40742,
+      "monthly_median_mae": 0.10563801974058151,
+      "pooled_median_mae": 0.10736125707626343
+    }
+  ],
+  "lowest_ndmi_anomaly": {
+    "month": "2024-03",
+    "ndmi_anomaly": -0.256384015083313,
+    "antecedent_rain_mm": 41.23
+  },
+  "pooled_seasonal_rain_ndmi_spearman": 0.3669172932330827
+}
